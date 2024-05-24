@@ -69,3 +69,26 @@ An interactive Streamlit app powered by Google Gemini for engaging AI-assisted c
    )
    chat = model.start_chat()
    ```
+
+# Task 4
+
+### Steps to Run and Test the Streamlit Chat App
+
+1. **Run the Streamlit App:**
+
+   - Open your terminal or IDE.
+   - Execute the command: `streamlit run your_app.py`.
+
+2. **Interact with the Chat Interface:**
+
+   - Enter queries related to Gemini Flights in the chat input.
+   - Observe the responses displayed in the Streamlit interface.
+
+3. **Observe Responses:**
+
+   - Ensure the app displays both the user's input and the responses from the `llm_function` accurately.
+   - Verify that the chat history updates correctly as you interact with the app.
+
+4. **Capture User Input:**
+   - Enter a query related to Gemini Flights.
+   - Ensure the `llm_function` processes and displays the response correctly in the Streamlit interface.
