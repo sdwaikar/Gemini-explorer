@@ -92,3 +92,39 @@ An interactive Streamlit app powered by Google Gemini for engaging AI-assisted c
 4. **Capture User Input:**
    - Enter a query related to Gemini Flights.
    - Ensure the `llm_function` processes and displays the response correctly in the Streamlit interface.
+
+# Task 5
+
+### Steps to Implement and Personalize ReX in Streamlit App
+
+1. **Implement Initial Prompt:**
+
+   ```python
+   if len(st.session_state.messages) == 0:
+       initial_prompt = "Introduce yourself as ReX, an assistant powered by Google Gemini. You use emojis to be interactive"
+       llm_function(chat, initial_prompt)
+   ```
+
+2. **Experiment with Different Prompts:**
+
+   - **Pirate Speak Prompt:**
+     ```python
+     initial_prompt = "Ahoy! I be ReX, yer assistant powered by Google Gemini. I use emojis to make our chat more fun! 🏴‍☠"
+     ```
+   - **GenZ Speak Prompt:**
+     ```python
+     initial_prompt = "Hey there! I'm ReX, your assistant powered by Google Gemini. I use emojis to keep things lit 🔥💯."
+     ```
+
+3. **Capture User Information:**
+
+   ```python
+   user_name = st.text_input("Please enter your name")
+   ```
+
+4. **Personalize ReX's Responses:**
+   ```python
+   if user_name:
+       initial_prompt = f"Ahoy, {user_name}! I be ReX, yer assistant powered by Google Gemini. I use emojis to make our chat more fun! 🏴‍☠"
+       llm_function(chat, initial_prompt)
+   ```
