@@ -24,7 +24,7 @@ An interactive Streamlit app powered by Google Gemini for engaging AI-assisted c
    - Name the project descriptively.
    - Go to the Vertex AI section and enable the recommended APIs for your project.
 
-# Task 1
+# Task 2
 
 ### Steps to Install and Initialize Google Cloud SDK
 
@@ -37,3 +37,35 @@ An interactive Streamlit app powered by Google Gemini for engaging AI-assisted c
    - Open your terminal or command prompt.
    - Run `gcloud init` to start the initialization process.
    - Follow the on-screen instructions to log in to your Google Cloud account and set up your default project and configuration.
+
+# Task 3
+
+### Steps to Set Up Vertex AI in Your Project
+
+1. **Import Required Libraries:**
+
+   ```python
+   import vertexai
+   import streamlit as st
+   from vertexai.preview import generative_models
+   from vertexai.preview.generative_models import GenerativeModel, Part, Content, ChatSession
+   ```
+
+2. **Initialize Vertex AI:**
+
+   ```python
+   project = "gemini-explorer"
+   vertexai.init(project=project)
+   ```
+
+3. **Load and Start the Model:**
+   ```python
+   config = generative_models.GenerationConfig(
+       temperature=0.4
+   )
+   model = GenerativeModel(
+       "gemini-pro",
+       generation_config=config
+   )
+   chat = model.start_chat()
+   ```
