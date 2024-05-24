@@ -4,7 +4,6 @@
 
 An interactive Streamlit app powered by Google Gemini for engaging AI-assisted conversations. Users can input their names and queries to receive dynamic responses. The app maintains chat history and provides a seamless user experience with a fun, emoji-enhanced interface
 
-
 # Task 1
 
 ### Steps to Set Up Google Cloud for Gemini Explorer Mission
@@ -24,3 +23,17 @@ An interactive Streamlit app powered by Google Gemini for engaging AI-assisted c
    - In the Google Cloud Platform dashboard, create a new project.
    - Name the project descriptively.
    - Go to the Vertex AI section and enable the recommended APIs for your project.
+
+# Task 1
+
+### Steps to Install and Initialize Google Cloud SDK
+
+1. **Install Google Cloud SDK:**
+
+   - Download the installer for your operating system from the [Google Cloud SDK webpage](https://cloud.google.com/sdk/docs/install).
+   - Run the installer and follow the prompts to complete the installation.
+
+2. **Initialize Google Cloud SDK:**
+   - Open your terminal or command prompt.
+   - Run `gcloud init` to start the initialization process.
+   - Follow the on-screen instructions to log in to your Google Cloud account and set up your default project and configuration.
