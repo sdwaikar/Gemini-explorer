@@ -123,12 +123,18 @@ An interactive Streamlit app powered by Google Gemini for engaging AI-assisted c
    ```
 
 4. **Personalize ReX's Responses:**
+
    ```python
    if user_name:
        initial_prompt = f"Ahoy, {user_name}! I be ReX, yer assistant powered by Google Gemini. I use emojis to make our chat more fun! 🏴‍☠"
        llm_function(chat, initial_prompt)
    ```
+
+   After entering your name, you can see the following prompt
    ![alt text](image.png)
+
+   You can ask anything you want. For example-
+   ![alt text](image-1.png)
 
 **Contributer** -
 **Shreyas Waikar**
