@@ -128,8 +128,9 @@ An interactive Streamlit app powered by Google Gemini for engaging AI-assisted c
        initial_prompt = f"Ahoy, {user_name}! I be ReX, yer assistant powered by Google Gemini. I use emojis to make our chat more fun! 🏴‍☠"
        llm_function(chat, initial_prompt)
    ```
+   ![alt text](image.png)
 
-**Contributer**
+**Contributer** -
 **Shreyas Waikar**
 
 - [LinkedIn](https://www.linkedin.com/in/connect-with-shreyas-waikar/)
