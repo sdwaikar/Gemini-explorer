@@ -90,7 +90,7 @@ An interactive Streamlit app powered by Google Gemini for engaging AI-assisted c
    - Verify that the chat history updates correctly as you interact with the app.
 
 4. **Capture User Input:**
-   - Enter a query related to Gemini Flights.
+   - Enter a query.
    - Ensure the `llm_function` processes and displays the response correctly in the Streamlit interface.
 
 # Task 5
@@ -128,3 +128,9 @@ An interactive Streamlit app powered by Google Gemini for engaging AI-assisted c
        initial_prompt = f"Ahoy, {user_name}! I be ReX, yer assistant powered by Google Gemini. I use emojis to make our chat more fun! 🏴‍☠"
        llm_function(chat, initial_prompt)
    ```
+
+**Contributer**
+**Shreyas Waikar**
+
+- [LinkedIn](https://www.linkedin.com/in/connect-with-shreyas-waikar/)
+- [GitHub](https://github.com/sdwaikar)
