@@ -136,6 +136,9 @@ An interactive Streamlit app powered by Google Gemini for engaging AI-assisted c
    You can ask anything you want. For example-
    ![alt text](image-1.png)
 
+Certificate
+[text](<d:/Data.Science/Certificates/Radical X/Gemini-explorer.pdf>)
+
 **Contributer** -
 **Shreyas Waikar**
 
