@@ -136,7 +136,6 @@ An interactive Streamlit app powered by Google Gemini for engaging AI-assisted c
    You can ask anything you want. For example-
    ![alt text](image-1.png)
 
-Certificate
 [Certificate](https://images.bannerbear.com/direct/K6W9Jw1Lro9ZNGDnlo/requests/000/056/844/795/jMVrobL3AQ5dL24L6G9ReqJW5/dfd077d43e6045cf4501e2ff965a30b0d7ae3594.pdf)
 
 **Contributer** -
